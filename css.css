@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+}
+
+.logo span{
+    color:red;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+.nav-links li{
+    cursor:pointer;
+    font-weight:500;
+}
+
+.search-box input{
+    padding:6px 15px;
+    border-radius:20px;
+    border:1px solid #999;
+}
+
+/* ================= HERO SECTION ================= */
+
+.hero{
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 80px;
+    min-height:90vh;
+}
+
+/* Background Circles */
+
+.circle{
+    position:absolute;
+    border-radius:50%;
+    opacity:0.7;
+    z-index:0;
+}
+
+.circle1{
+    width:400px;
+    height:400px;
+    background:#b8f2e6;
+    left:40px;
+    top:120px;
+}
+
+.circle2{
+    width:300px;
+    height:300px;
+    background:#f6d186;
+    right:300px;
+    top:150px;
+}
+
+.circle3{
+    width:280px;
+    height:280px;
+    background:#e4c1f9;
+    right:80px;
+    top:200px;
+}
+
+.circle4{
+    width:350px;
+    height:350px;
+    background:#a0c4ff;
+    right:200px;
+    top:40px;
+}
+
+/* Left Text */
+
+.hero-text{
+    max-width:500px;
+    z-index:2;
+}
+
+.hero-text h4{
+    font-weight:400;
+    color:#555;
+}
+
+.hero-text h1{
+    font-size:48px;
+    margin:10px 0;
+    font-weight:700;
+}
+
+.hero-text h3{
+    font-size:22px;
+    font-weight:400;
+    margin-bottom:20px;
+}
+
+.hero-text span{
+    color:#00b894;
+    font-weight:600;
+}
+
+/* Buttons */
+
+.buttons{
+    display:flex;
+    gap:15px;
+}
+
+.btn{
+    padding:10px 25px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    font-weight:500;
+}
+
+.btn1{
+    background:#00cec9;
+    color:white;
+}
+
+.btn2{
+    background:#6c5ce7;
+    color:white;
+}
+
+/* Image */
+
+.hero-img img{
+    width:500px;
+    height: 550px;
+    left: 1000px;
+    bottom: 0%;
+    position: absolute;
+    z-index:2;
+    border-radius: 60%;
+}
+
+/* Social Icons */
+
+.social{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.social a{
+    text-decoration:none;
+    color:#555;
+    font-weight:600;
+}
